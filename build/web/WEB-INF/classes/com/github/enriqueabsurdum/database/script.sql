@@ -1,0 +1,12 @@
+CREATE DATABASE usuarios_db;
+USE usuarios_db;
+
+CREATE TABLE usuarios (
+    id_usuario INT NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+    run VARCHAR(20) NOT NULL UNIQUE,
+    nombre VARCHAR(64) NOT NULL,
+    apellido VARCHAR(64) NOT NULL,
+    edad INT NOT NULL
+);
+
+DESCRIBE usuarios_db.usuarios;
