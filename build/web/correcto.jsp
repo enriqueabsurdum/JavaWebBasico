@@ -12,7 +12,7 @@
                 <div class="col-sm-6 mx-auto">
                     <div class="card my-5 px-3">
                         <div class="card-body my-3">
-                            <h3 class="card-title text-center mb-5">¡Registro correcto!</h3>
+                            <h3 class="card-title text-center mb-5 font-weight-bold">¡Registro correcto!</h3>
                             <div class="float-middle">
                                 <a class="btn btn-primary btn-block align-middle px-5 mx-auto" href="/JavaWebBasico/index.jsp">Volver</a>
                             </div>

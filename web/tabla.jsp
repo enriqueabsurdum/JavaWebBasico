@@ -17,7 +17,7 @@
     <body>
 
         <div class="container mt-5">
-            <h4 class="pt-5 pb-3 text-center">Lista de usuarios</h4>
+            <h3 class="pt-5 pb-3 text-center font-weight-bold">Lista de usuarios</h3>
             <table class="table table-bordered table-hover">
                 <thead class="thead-light">
                     <tr class="align-middle">

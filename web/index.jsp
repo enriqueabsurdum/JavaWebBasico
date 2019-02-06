@@ -28,9 +28,11 @@
         <div class="container mt-3">
             <div class="row">
                 <div class="col-sm-6 mx-auto">
-                    <div class="card my-5 px-3">
-                        <div class="card-body my-3">
-                            <h3 class="card-title text-center mb-5">Nuevo usuario</h3>
+                    <div class="card my-5 border-primary">
+                        <div class="card-header">
+                            <h3 class="text-center font-weight-bold pt-2">Nuevo usuario</h3>
+                        </div>
+                        <div class="card-body my-3 px-5">
                             <form action="crear-usuario" method="POST">
                                 <div class="form-group">
                                     <label>RUN</label>
